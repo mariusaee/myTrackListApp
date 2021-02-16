@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		298600C025DC2B4B00C769B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298600BF25DC2B4B00C769B2 /* AppDelegate.swift */; };
 		298600C225DC2B4B00C769B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298600C125DC2B4B00C769B2 /* SceneDelegate.swift */; };
-		298600C425DC2B4B00C769B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298600C325DC2B4B00C769B2 /* ViewController.swift */; };
 		298600C725DC2B4B00C769B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298600C525DC2B4B00C769B2 /* Main.storyboard */; };
 		298600C925DC2B4E00C769B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298600C825DC2B4E00C769B2 /* Assets.xcassets */; };
 		298600CC25DC2B4E00C769B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298600CA25DC2B4E00C769B2 /* LaunchScreen.storyboard */; };
+		298600D625DC2C3300C769B2 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298600D525DC2C3300C769B2 /* TrackListViewController.swift */; };
+		298600DA25DC364400C769B2 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298600D925DC364400C769B2 /* Track.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		298600BC25DC2B4B00C769B2 /* myTrackListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myTrackListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		298600BF25DC2B4B00C769B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		298600C125DC2B4B00C769B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		298600C325DC2B4B00C769B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		298600C625DC2B4B00C769B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		298600C825DC2B4E00C769B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		298600CB25DC2B4E00C769B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		298600CD25DC2B4E00C769B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298600D525DC2C3300C769B2 /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+		298600D925DC364400C769B2 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				298600BF25DC2B4B00C769B2 /* AppDelegate.swift */,
 				298600C125DC2B4B00C769B2 /* SceneDelegate.swift */,
-				298600C325DC2B4B00C769B2 /* ViewController.swift */,
 				298600C525DC2B4B00C769B2 /* Main.storyboard */,
 				298600C825DC2B4E00C769B2 /* Assets.xcassets */,
 				298600CA25DC2B4E00C769B2 /* LaunchScreen.storyboard */,
 				298600CD25DC2B4E00C769B2 /* Info.plist */,
+				298600D525DC2C3300C769B2 /* TrackListViewController.swift */,
+				298600D925DC364400C769B2 /* Track.swift */,
 			);
 			path = myTrackListApp;
 			sourceTree = "<group>";
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				298600C425DC2B4B00C769B2 /* ViewController.swift in Sources */,
 				298600C025DC2B4B00C769B2 /* AppDelegate.swift in Sources */,
 				298600C225DC2B4B00C769B2 /* SceneDelegate.swift in Sources */,
+				298600D625DC2C3300C769B2 /* TrackListViewController.swift in Sources */,
+				298600DA25DC364400C769B2 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
