@@ -13,7 +13,7 @@ class TrackListViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        tableView.rowHeight = 80
     }
 
     // MARK: - Table view data source
@@ -45,13 +45,20 @@ class TrackListViewController: UITableViewController {
 
     }
     
+//    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+//        80
+//    }
+    
 //    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
 //
 //    }
 
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        let trackDetailsVC = segue.destination as! TrackDetailsViewController
+        guard let indexPath = tableView.indexPathForSelectedRow else { return }
+        let track = trackList[indexPath.row]
+        trackDetailsVC.track = track
     }
 
 }
